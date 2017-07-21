@@ -113,7 +113,6 @@ namespace Coverage {
           fprintf(stderr, "%s\n", itr->line.c_str());
         }
       }
-      
 
       // Create a unified coverage map for the symbol.
       SymbolsToAnalyze->createCoverageMap(
